@@ -1,9 +1,7 @@
 {
     "builds": [{ "src": "build-command-here", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/" }] , 
-
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
-
-
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
   }
   
